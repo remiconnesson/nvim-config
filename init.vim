@@ -8,6 +8,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'dense-analysis/ale'
 Plug 'lewis6991/gitsigns.nvim'
+" Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 " Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make' }
 call plug#end()
 
