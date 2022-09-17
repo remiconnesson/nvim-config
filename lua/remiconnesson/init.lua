@@ -1,5 +1,5 @@
 require('remiconnesson/lspconfig')
 require('remiconnesson/telescope')
 require('remiconnesson/lightline')
-require('remiconnesson/gitsigns')
--- require('remiconnesson/treesitter')
+-- require('remiconnesson/gitsigns')
+require('remiconnesson/treesitter')

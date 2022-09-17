@@ -5,10 +5,10 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 Plug 'neovim/nvim-lspconfig'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-fugitive'
-Plug 'dense-analysis/ale'
-Plug 'lewis6991/gitsigns.nvim'
-" Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+" Plug 'tpope/vim-fugitive'
+" Plug 'dense-analysis/ale'
+" Plug 'lewis6991/gitsigns.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 " Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make' }
 call plug#end()
 
@@ -75,12 +75,4 @@ set smartcase
 " ... general settings
 set signcolumn=number  " for gitsigns
 
-""" LINTER
-"" 
-let g:ale_fixers = ['prettier']
-let g:ale_fix_on_save = 1 
-"" deactivate linting (I prefer to check the output of the cli)
-let g:ale_linters_explicit = 1
-let g:ale_lint_on_text_changed = 'never'
-let g:ale_lint_on_insert_leave = 0
-let g:ale_lint_on_enter = 0
+
